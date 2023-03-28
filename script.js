@@ -9,9 +9,9 @@ const lookup = {
   'U': 'H','V': 'I','W': 'J','X': 'K',
   'Y': 'L','Z': 'M', '?': '?', ',': ','
 };
-
+let decodedArr = [];
 function rot13(str){
-   let decodedArr = []; // Your Result goes here
+    // Your Result goes here
   // Only change code below this line
 
   for (ch in str) {
